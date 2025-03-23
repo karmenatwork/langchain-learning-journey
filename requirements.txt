@@ -1,0 +1,19 @@
+# Core LangChain & LLM support
+langchain
+openai
+tiktoken
+
+# Env & config
+python-dotenv
+pyyaml
+
+# Data handling & analysis
+pandas
+numpy
+matplotlib
+
+# Dev tooling
+jupyterlab
+ipykernel
+rich
+tqdm

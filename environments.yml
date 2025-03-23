@@ -1,0 +1,23 @@
+name: langchain-learning
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - ipykernel
+  - nodejs          # if you use JupyterLab extensions
+  - git             # for pulling examples or submodules
+  - pip:
+      - langchain
+      - openai
+      - python-dotenv
+      - pandas
+      - numpy
+      - matplotlib
+      - tiktoken
+      - rich          # for prettier console output
+      - tqdm          # progress bars
+      - pyyaml        # reading/writing YAML
